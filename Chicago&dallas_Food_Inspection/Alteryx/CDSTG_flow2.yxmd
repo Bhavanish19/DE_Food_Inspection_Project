@@ -1,0 +1,756 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:chic|||select Chicago_Stg.* 
+from Chicago_Stg</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:chic
+Query=select Chicago_Stg.* 
+from...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="Int32" />
+            <Field name="DBA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="License #" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="Int32" />
+            <Field name="Facility Type" size="47" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="Risk" size="15" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="Address" size="80" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="City" size="30" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="State" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="Zip" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="Int32" />
+            <Field name="Inspection Date" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="Inspection Type" size="41" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="Results" size="20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="Violations" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="Latitude" size="23" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="Longitude" size="23" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="Location" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="ID" size="16" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="LICENSE ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="Int32" />
+            <Field name="ACCOUNT NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="Int32" />
+            <Field name="SITE NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="Int16" />
+            <Field name="LEGAL NAME" size="117" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="DOING BUSINESS AS NAME" size="128" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="ZIP CODE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="Int32" />
+            <Field name="WARD" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="Int16" />
+            <Field name="PRECINCT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="Int16" />
+            <Field name="WARD PRECINCT" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="POLICE DISTRICT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="Int16" />
+            <Field name="LICENSE CODE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="Int16" />
+            <Field name="LICENSE DESCRIPTION" size="60" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="BUSINESS ACTIVITY ID" size="81" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="BUSINESS ACTIVITY" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="LICENSE NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="Int32" />
+            <Field name="APPLICATION TYPE" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="PAYMENT DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="CONDITIONAL APPROVAL" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="LICENSE TERM START DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="LICENSE TERM EXPIRATION DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="DATE ISSUED" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="LICENSE STATUS" size="3" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="String" />
+            <Field name="LICENSE STATUS CHANGE DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="V_String" />
+            <Field name="SSA" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=chic;SERVER=localhost;Trusted_Connection=yes|||select Chicago_Stg.* &#xA;from Chicago_Stg" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:Dal|||select Dal_stg.* 
+from Dal_stg</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Dal
+Query=select Dal_stg.* 
+from Dal_...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int32" />
+            <Field name="Restaurant Name" size="65" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Inspection Type" size="9" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="String" />
+            <Field name="Inspection Date" size="10" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="String" />
+            <Field name="Inspection Score" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Street Number" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int32" />
+            <Field name="Street Name" size="25" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Street Direction" size="1" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="String" />
+            <Field name="Street Type" size="4" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="String" />
+            <Field name="Street Unit" size="5" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="String" />
+            <Field name="Street Address" size="36" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Zip Code" size="10" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="String" />
+            <Field name="Violation Description - 1" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 1" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 1" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 1" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 2" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 2" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 2" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 2" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 3" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 3" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 3" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 3" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 4" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 4" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 4" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 4" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 5" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 5" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 5" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 5" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 6" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 6" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 6" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 6" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 7" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 7" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 7" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 7" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 8" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 8" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 8" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 8" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 9" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 9" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 9" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 9" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 10" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 10" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 10" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 10" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 11" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 11" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 11" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 11" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 12" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 12" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 12" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 12" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 13" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 13" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 13" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 13" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 14" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 14" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 14" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 14" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 15" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 15" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 15" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 15" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 16" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 16" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 16" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 16" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Description - 17" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 17" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 17" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 17" size="212" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Description - 18" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 18" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 18" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 18" size="230" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Violation Description - 19" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 19" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 19" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 19" size="245" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Description - 20" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 20" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 20" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation  Memo - 20" size="247" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Description - 21" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 21" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 21" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 21" size="211" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Description - 22" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 22" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 22" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 22" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Description - 23" size="100" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 23" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 23" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 23" size="103" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Description - 24" size="59" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 24" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 24" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 24" size="186" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Description - 25" size="50" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Points - 25" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Int16" />
+            <Field name="Violation Detail - 25" size="254" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Violation Memo - 25" size="171" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="Inspection Month" size="8" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="String" />
+            <Field name="Inspection Year" size="6" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="String" />
+            <Field name="Lat Long Location" size="59" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_String" />
+            <Field name="DI_Create_Dt" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="V_WString" />
+            <Field name="Inspection_Date" source="File: aka:Dal|||select Dal_stg.* &#xA;from Dal_stg" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Engine_13964_02bc5fbaa6621a45b97afc1e419c4180_\Engine_13964_9faedc63dce1184ea146e79d4b5add89~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="234" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Engine_13964_02bc5fbaa6621a45b97afc1e419c4180_\Engine_13964_6c32c5b5116f89448e47a00225809202~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="738" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Zip" />
+            <Field field="State" />
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Type" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Zip" />
+            <Field field="Street Unit" />
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Type" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Restaurant Name" selected="True" rename="Right_Restaurant Name" input="Right_" />
+                <SelectField field="Right_Inspection Type" selected="True" rename="Right_Inspection Type" input="Right_" />
+                <SelectField field="Right_Inspection Date" selected="True" rename="Right_Inspection Date" input="Right_" />
+                <SelectField field="Right_Address" selected="True" rename="Right_Address" input="Right_" />
+                <SelectField field="Right_Zip" selected="True" rename="Right_Zip" input="Right_" />
+                <SelectField field="Right_Zip Code" selected="True" rename="Right_Zip Code" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DBA Name" selected="True" rename="Restaurant Name" />
+            <SelectField field="Address" selected="True" size="51" />
+            <SelectField field="Zip" selected="True" type="V_String" size="16" />
+            <SelectField field="Inspection Date2" selected="True" rename="Inspection Date" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" size="79" />
+            <SelectField field="Inspection Type" selected="True" type="V_String" size="41" />
+            <SelectField field="Street Address" selected="True" rename="Address" size="51" />
+            <SelectField field="Zip Code" selected="True" rename="Zip" type="V_String" size="16" />
+            <SelectField field="Violation Description - 25" selected="True" rename="Violation Description" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="918" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1002" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Engine_13964_02bc5fbaa6621a45b97afc1e419c4180_\Engine_13964_372047b03bcc304fb119f97988147255~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Engine_13964_02bc5fbaa6621a45b97afc1e419c4180_\Engine_13964_ac4df34fdddc854c82d9255849c506be~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Engine_13964_02bc5fbaa6621a45b97afc1e419c4180_\Engine_13964_37ce318320e1c0449ee0c35aff76deee~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="92">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="78" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="RecordID" />
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Violation Description - 1" />
+            <Field field="Violation Points - 1" />
+            <Field field="Violation Detail - 1" />
+            <Field field="Violation Memo - 1" />
+            <Field field="Violation Description - 2" />
+            <Field field="Violation Points - 2" />
+            <Field field="Violation Detail - 2" />
+            <Field field="Violation Memo - 2" />
+            <Field field="Violation Description - 3" />
+            <Field field="Violation Points - 3" />
+            <Field field="Violation Detail - 3" />
+            <Field field="Violation Memo - 3" />
+            <Field field="Violation Description - 4" />
+            <Field field="Violation Points - 4" />
+            <Field field="Violation Detail - 4" />
+            <Field field="Violation Memo - 4" />
+            <Field field="Violation Description - 5" />
+            <Field field="Violation Points - 5" />
+            <Field field="Violation Detail - 5" />
+            <Field field="Violation Memo - 5" />
+            <Field field="Violation Description - 6" />
+            <Field field="Violation Points - 6" />
+            <Field field="Violation Detail - 6" />
+            <Field field="Violation Memo - 6" />
+            <Field field="Violation Description - 7" />
+            <Field field="Violation Points - 7" />
+            <Field field="Violation Detail - 7" />
+            <Field field="Violation Memo - 7" />
+            <Field field="Violation Description - 8" />
+            <Field field="Violation Points - 8" />
+            <Field field="Violation Detail - 8" />
+            <Field field="Violation Memo - 8" />
+            <Field field="Violation Description - 9" />
+            <Field field="Violation Points - 9" />
+            <Field field="Violation Detail - 9" />
+            <Field field="Violation Memo - 9" />
+            <Field field="Violation Description - 10" />
+            <Field field="Violation Points - 10" />
+            <Field field="Violation Detail - 10" />
+            <Field field="Violation Memo - 10" />
+            <Field field="Violation Description - 11" />
+            <Field field="Violation Points - 11" />
+            <Field field="Violation Detail - 11" />
+            <Field field="Violation Memo - 11" />
+            <Field field="Violation Description - 12" />
+            <Field field="Violation Points - 12" />
+            <Field field="Violation Detail - 12" />
+            <Field field="Violation Memo - 12" />
+            <Field field="Violation Description - 13" />
+            <Field field="Violation Points - 13" />
+            <Field field="Violation Detail - 13" />
+            <Field field="Violation Memo - 13" />
+            <Field field="Violation Description - 14" />
+            <Field field="Violation Points - 14" />
+            <Field field="Violation Detail - 14" />
+            <Field field="Violation Memo - 14" />
+            <Field field="Violation Description - 15" />
+            <Field field="Violation Points - 15" />
+            <Field field="Violation Detail - 15" />
+            <Field field="Violation Memo - 15" />
+            <Field field="Violation Description - 16" />
+            <Field field="Violation Points - 16" />
+            <Field field="Violation Detail - 16" />
+            <Field field="Violation Memo - 16" />
+            <Field field="Violation Description - 17" />
+            <Field field="Violation Points - 17" />
+            <Field field="Violation Detail - 17" />
+            <Field field="Violation Memo - 17" />
+            <Field field="Violation Description - 18" />
+            <Field field="Violation Points - 18" />
+            <Field field="Violation Detail - 18" />
+            <Field field="Violation Memo - 18" />
+            <Field field="Violation Description - 19" />
+            <Field field="Violation Points - 19" />
+            <Field field="Violation Detail - 19" />
+            <Field field="Violation Memo - 19" />
+            <Field field="Violation Description - 20" />
+            <Field field="Violation Points - 20" />
+            <Field field="Violation Detail - 20" />
+            <Field field="Violation  Memo - 20" />
+            <Field field="Violation Description - 21" />
+            <Field field="Violation Points - 21" />
+            <Field field="Violation Detail - 21" />
+            <Field field="Violation Memo - 21" />
+            <Field field="Violation Description - 22" />
+            <Field field="Violation Points - 22" />
+            <Field field="Violation Detail - 22" />
+            <Field field="Violation Memo - 22" />
+            <Field field="Violation Description - 23" />
+            <Field field="Violation Points - 23" />
+            <Field field="Violation Detail - 23" />
+            <Field field="Violation Memo - 23" />
+            <Field field="Violation Description - 24" />
+            <Field field="Violation Points - 24" />
+            <Field field="Violation Detail - 24" />
+            <Field field="Violation Memo - 24" />
+            <Field field="Violation Description - 25" />
+            <Field field="Violation Points - 25" />
+            <Field field="Violation Detail - 25" />
+            <Field field="Violation Memo - 25" />
+            <Field field="Inspection Month" />
+            <Field field="Inspection Year" />
+            <Field field="Lat Long Location" />
+            <Field field="DI_Create_Dt" />
+            <Field field="DI_WorkflowFileName" />
+            <Field field="Inspection_Date" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1074" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:CDM|||Dal_OP</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:CDM
+Query=Dal_OP</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="92" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="6" Connection="Left" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Right" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="92" Connection="Unique" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CDSTG_Autosave</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d5a3a730-84cf-4b82-bc42-ce4d3154a742" />
+      <Telemetry>
+        <PreviousWorkflowId value="621616a7-c1d5-49c1-9c1f-ba147346aa08" />
+        <OriginWorkflowId value="db8c368c-38e2-4be3-8b1b-49c5b43a4870" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

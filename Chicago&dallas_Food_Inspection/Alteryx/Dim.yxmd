@@ -1,0 +1,1468 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:CDM|||select Dal_OP.* 
+from Dal_OP</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:CDM
+Query=select Dal_OP.* 
+from Dal_O...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="Restaurant Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="License #" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="Facility Type" size="47" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Risk" size="15" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Address" size="51" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="City" size="30" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="State" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Zip" size="16" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Inspection Date" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Inspection Type" size="41" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Results" size="20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violations" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Latitude" size="23" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Longitude" size="23" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Location" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="ID" size="16" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="LICENSE ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="ACCOUNT NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="SITE NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="LEGAL NAME" size="117" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="DOING BUSINESS AS NAME" size="128" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="ZIP CODE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="WARD" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="PRECINCT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="WARD PRECINCT" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="POLICE DISTRICT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="LICENSE CODE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="LICENSE DESCRIPTION" size="60" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="BUSINESS ACTIVITY ID" size="81" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="BUSINESS ACTIVITY" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="LICENSE NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="APPLICATION TYPE" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="PAYMENT DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="CONDITIONAL APPROVAL" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="LICENSE TERM START DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="LICENSE TERM EXPIRATION DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="DATE ISSUED" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="LICENSE STATUS" size="3" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="LICENSE STATUS CHANGE DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="SSA" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="RecordID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="Inspection Score" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Street Number" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="Street Name" size="25" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Street Direction" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Street Type" size="4" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Street Unit" size="5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Violation Description - 1" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 1" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 1" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 2" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 2" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 2" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 3" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 3" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 3" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 3" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 4" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 4" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 4" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 4" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 5" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 5" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 5" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 6" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 6" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 6" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 7" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 7" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 7" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 7" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 8" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 8" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 8" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 8" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 9" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 9" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 9" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 9" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 10" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 10" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 10" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 11" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 11" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 11" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 11" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 12" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 12" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 12" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 12" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 13" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 13" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 13" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 13" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 14" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 14" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 14" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 14" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 15" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 15" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 15" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 15" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 16" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 16" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 16" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 16" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 17" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 17" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 17" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 17" size="212" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 18" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 18" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 18" size="230" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 19" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 19" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 19" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 19" size="245" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 20" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 20" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation  Memo - 20" size="247" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 21" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 21" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 21" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 21" size="211" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 22" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 22" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 22" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 22" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 23" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 23" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 23" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 23" size="103" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 24" size="59" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 24" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 24" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 24" size="186" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description" size="50" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 25" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 25" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 25" size="171" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Inspection Month" size="8" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Inspection Year" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Lat Long Location" size="59" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="DI_Create_Dt" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Inspection_Date" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings>
+        <Position x="258" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"Inspection ID","Restaurant Name","AKA Name","License #","Facility Type","Risk","Address","City","State","Zip","Inspection Date","Inspection Type","Results","Violations","Latitude","Longitude","Location","ID","LICENSE ID","ACCOUNT NUMBER","SITE NUMBER","LEGAL NAME","DOING BUSINESS AS NAME","ZIP CODE","WARD","PRECINCT","WARD PRECINCT","POLICE DISTRICT","LICENSE CODE","LICENSE DESCRIPTION","BUSINESS ACTIVITY ID","BUSINESS ACTIVITY","LICENSE NUMBER","APPLICATION TYPE","APPLICATION REQUIREMENTS COMPLETE","PAYMENT DATE","CONDITIONAL APPROVAL","LICENSE TERM START DATE","LICENSE TERM EXPIRATION DATE","LICENSE APPROVED FOR ISSUANCE","DATE ISSUED","LICENSE STATUS","LICENSE STATUS CHANGE DATE","SSA","RecordID","Inspection Score","Street Number","Street Name","Street Direction","Street Type","Street Unit","Violation Description - 1","Violation Points - 1","Violation Detail - 1","Violation Memo - 1","Violation Description - 2","Violation Points - 2","Violation Detail - 2","Violation Memo - 2","Violation Description - 3","Violation Points - 3","Violation Detail - 3","Violation Memo - 3","Violation Description - 4","Violation Points - 4","Violation Detail - 4","Violation Memo - 4","Violation Description - 5","Violation Points - 5","Violation Detail - 5","Violation Memo - 5","Violation Description - 6","Violation Points - 6","Violation Detail - 6","Violation Memo - 6","Violation Description - 7","Violation Points - 7","Violation Detail - 7","Violation Memo - 7","Violation Description - 8","Violation Points - 8","Violation Detail - 8","Violation Memo - 8","Violation Description - 9","Violation Points - 9","Violation Detail - 9","Violation Memo - 9","Violation Description - 10","Violation Points - 10","Violation Detail - 10","Violation Memo - 10","Violation Description - 11","Violation Points - 11","Violation Detail - 11","Violation Memo - 11","Violation Description - 12","Violation Points - 12","Violation Detail - 12","Violation Memo - 12","Violation Description - 13","Violation Points - 13","Violation Detail - 13","Violation Memo - 13","Violation Description - 14","Violation Points - 14","Violation Detail - 14","Violation Memo - 14","Violation Description - 15","Violation Points - 15","Violation Detail - 15","Violation Memo - 15","Violation Description - 16","Violation Points - 16","Violation Detail - 16","Violation Memo - 16","Violation Description - 17","Violation Points - 17","Violation Detail - 17","Violation Memo - 17","Violation Description - 18","Violation Points - 18","Violation Detail - 18","Violation Memo - 18","Violation Description - 19","Violation Points - 19","Violation Detail - 19","Violation Memo - 19","Violation Description - 20","Violation Points - 20","Violation Detail - 20","Violation  Memo - 20","Violation Description - 21","Violation Points - 21","Violation Detail - 21","Violation Memo - 21","Violation Description - 22","Violation Points - 22","Violation Detail - 22","Violation Memo - 22","Violation Description - 23","Violation Points - 23","Violation Detail - 23","Violation Memo - 23","Violation Description - 24","Violation Points - 24","Violation Detail - 24","Violation Memo - 24","Violation Description","Violation Points - 25","Violation Detail - 25","Violation Memo - 25","Inspection Month","Inspection Year","Lat Long Location","DI_Create_Dt","DI_WorkflowFileName","Inspection_Date"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="138" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Restaurant Name" selected="True" />
+            <Field field="AKA Name" selected="True" />
+            <Field field="Facility Type" selected="True" />
+            <Field field="Risk" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Zip" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Results" selected="True" />
+            <Field field="Violations" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="ID" selected="True" />
+            <Field field="LEGAL NAME" selected="True" />
+            <Field field="DOING BUSINESS AS NAME" selected="True" />
+            <Field field="WARD PRECINCT" selected="True" />
+            <Field field="LICENSE DESCRIPTION" selected="True" />
+            <Field field="BUSINESS ACTIVITY ID" selected="True" />
+            <Field field="BUSINESS ACTIVITY" selected="True" />
+            <Field field="APPLICATION TYPE" selected="True" />
+            <Field field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+            <Field field="PAYMENT DATE" selected="True" />
+            <Field field="CONDITIONAL APPROVAL" selected="True" />
+            <Field field="LICENSE TERM START DATE" selected="True" />
+            <Field field="LICENSE TERM EXPIRATION DATE" selected="True" />
+            <Field field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+            <Field field="DATE ISSUED" selected="True" />
+            <Field field="LICENSE STATUS" selected="True" />
+            <Field field="LICENSE STATUS CHANGE DATE" selected="True" />
+            <Field field="Street Name" selected="True" />
+            <Field field="Street Direction" selected="True" />
+            <Field field="Street Type" selected="True" />
+            <Field field="Street Unit" selected="True" />
+            <Field field="Violation Description - 1" selected="True" />
+            <Field field="Violation Detail - 1" selected="True" />
+            <Field field="Violation Memo - 1" selected="True" />
+            <Field field="Violation Description - 2" selected="True" />
+            <Field field="Violation Detail - 2" selected="True" />
+            <Field field="Violation Memo - 2" selected="True" />
+            <Field field="Violation Description - 3" selected="True" />
+            <Field field="Violation Detail - 3" selected="True" />
+            <Field field="Violation Memo - 3" selected="True" />
+            <Field field="Violation Description - 4" selected="True" />
+            <Field field="Violation Detail - 4" selected="True" />
+            <Field field="Violation Memo - 4" selected="True" />
+            <Field field="Violation Description - 5" selected="True" />
+            <Field field="Violation Detail - 5" selected="True" />
+            <Field field="Violation Memo - 5" selected="True" />
+            <Field field="Violation Description - 6" selected="True" />
+            <Field field="Violation Detail - 6" selected="True" />
+            <Field field="Violation Memo - 6" selected="True" />
+            <Field field="Violation Description - 7" selected="True" />
+            <Field field="Violation Detail - 7" selected="True" />
+            <Field field="Violation Memo - 7" selected="True" />
+            <Field field="Violation Description - 8" selected="True" />
+            <Field field="Violation Detail - 8" selected="True" />
+            <Field field="Violation Memo - 8" selected="True" />
+            <Field field="Violation Description - 9" selected="True" />
+            <Field field="Violation Detail - 9" selected="True" />
+            <Field field="Violation Memo - 9" selected="True" />
+            <Field field="Violation Description - 10" selected="True" />
+            <Field field="Violation Detail - 10" selected="True" />
+            <Field field="Violation Memo - 10" selected="True" />
+            <Field field="Violation Description - 11" selected="True" />
+            <Field field="Violation Detail - 11" selected="True" />
+            <Field field="Violation Memo - 11" selected="True" />
+            <Field field="Violation Description - 12" selected="True" />
+            <Field field="Violation Detail - 12" selected="True" />
+            <Field field="Violation Memo - 12" selected="True" />
+            <Field field="Violation Description - 13" selected="True" />
+            <Field field="Violation Detail - 13" selected="True" />
+            <Field field="Violation Memo - 13" selected="True" />
+            <Field field="Violation Description - 14" selected="True" />
+            <Field field="Violation Detail - 14" selected="True" />
+            <Field field="Violation Memo - 14" selected="True" />
+            <Field field="Violation Description - 15" selected="True" />
+            <Field field="Violation Detail - 15" selected="True" />
+            <Field field="Violation Memo - 15" selected="True" />
+            <Field field="Violation Description - 16" selected="True" />
+            <Field field="Violation Detail - 16" selected="True" />
+            <Field field="Violation Memo - 16" selected="True" />
+            <Field field="Violation Description - 17" selected="True" />
+            <Field field="Violation Detail - 17" selected="True" />
+            <Field field="Violation Memo - 17" selected="True" />
+            <Field field="Violation Description - 18" selected="True" />
+            <Field field="Violation Detail - 18" selected="True" />
+            <Field field="Violation Memo - 18" selected="True" />
+            <Field field="Violation Description - 19" selected="True" />
+            <Field field="Violation Detail - 19" selected="True" />
+            <Field field="Violation Memo - 19" selected="True" />
+            <Field field="Violation Description - 20" selected="True" />
+            <Field field="Violation Detail - 20" selected="True" />
+            <Field field="Violation  Memo - 20" selected="True" />
+            <Field field="Violation Description - 21" selected="True" />
+            <Field field="Violation Detail - 21" selected="True" />
+            <Field field="Violation Memo - 21" selected="True" />
+            <Field field="Violation Description - 22" selected="True" />
+            <Field field="Violation Detail - 22" selected="True" />
+            <Field field="Violation Memo - 22" selected="True" />
+            <Field field="Violation Description - 23" selected="True" />
+            <Field field="Violation Detail - 23" selected="True" />
+            <Field field="Violation Memo - 23" selected="True" />
+            <Field field="Violation Description - 24" selected="True" />
+            <Field field="Violation Detail - 24" selected="True" />
+            <Field field="Violation Memo - 24" selected="True" />
+            <Field field="Violation Description" selected="True" />
+            <Field field="Violation Detail - 25" selected="True" />
+            <Field field="Violation Memo - 25" selected="True" />
+            <Field field="Inspection Month" selected="True" />
+            <Field field="Inspection Year" selected="True" />
+            <Field field="Lat Long Location" selected="True" />
+            <Field field="DI_WorkflowFileName" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="Restaurant Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="License #" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="Facility Type" size="47" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Risk" size="15" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Address" size="51" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="City" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="State" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Zip" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Inspection Date" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Inspection Type" size="41" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Results" size="20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violations" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Latitude" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Longitude" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Location" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="ID" size="16" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="LICENSE ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="ACCOUNT NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="SITE NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="LEGAL NAME" size="108" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="DOING BUSINESS AS NAME" size="88" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="ZIP CODE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="WARD" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="PRECINCT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="WARD PRECINCT" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="POLICE DISTRICT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="LICENSE CODE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="LICENSE DESCRIPTION" size="60" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="BUSINESS ACTIVITY ID" size="81" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="BUSINESS ACTIVITY" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="LICENSE NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="APPLICATION TYPE" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="PAYMENT DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="CONDITIONAL APPROVAL" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="LICENSE TERM START DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="LICENSE TERM EXPIRATION DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="DATE ISSUED" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="LICENSE STATUS" size="3" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="LICENSE STATUS CHANGE DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="SSA" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="RecordID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="Inspection Score" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Street Number" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int32" />
+            <Field name="Street Name" size="25" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Street Direction" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Street Type" size="4" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Street Unit" size="5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="String" />
+            <Field name="Violation Description - 1" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 1" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 1" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 2" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 2" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 2" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 3" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 3" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 3" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 3" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 4" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 4" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 4" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 4" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 5" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 5" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 5" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 6" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 6" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 6" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 7" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 7" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 7" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 7" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 8" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 8" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 8" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 8" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 9" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 9" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 9" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 9" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 10" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 10" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 10" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 11" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 11" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 11" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 11" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 12" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 12" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 12" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 12" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 13" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 13" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 13" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 13" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 14" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 14" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 14" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 14" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 15" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 15" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 15" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 15" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 16" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 16" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 16" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 16" size="253" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 17" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 17" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 17" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 17" size="212" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 18" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 18" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 18" size="230" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_WString" />
+            <Field name="Violation Description - 19" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 19" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 19" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 19" size="245" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 20" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 20" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation  Memo - 20" size="247" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 21" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 21" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 21" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 21" size="211" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 22" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 22" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 22" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 22" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 23" size="100" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 23" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 23" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 23" size="103" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description - 24" size="59" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 24" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 24" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 24" size="186" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Description" size="50" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Points - 25" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Int16" />
+            <Field name="Violation Detail - 25" size="254" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Violation Memo - 25" size="171" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Inspection Month" size="8" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Inspection Year" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Lat Long Location" size="59" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="DI_Create_Dt" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="11" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="V_String" />
+            <Field name="Inspection_Date" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Dal_OP;SERVER=Bhavanish;Trusted_Connection=yes|||select Dal_OP.* &#xA;from Dal_OP" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="114" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Engine_8688_4368839cbe853e45b31b48e94ba0ce94_\Engine_8688_b12f7b6218e6d9429764fa2a57fb30b9~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="377" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="ZIP CODE" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Lat Long Location" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="690" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>AddressSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="810" y="89" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="Dl_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="Dl_workflowDirectory" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="Dl_workflowFileName" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dl_CreateDate = DateTimeNow()
+Dl_workflowDirectory = [Engine.WorkflowDirectory]
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="930" y="89" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:CD|||Dim_Address</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="ByName" />
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:CD
+Query=Dim_Address</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="546" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Latitude" />
+            <Field field="Longitude" />
+            <Field field="ZIP CODE" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="390" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Address" selected="True" />
+            <SelectField field="ID" selected="True" />
+            <SelectField field="LICENSE ID" selected="True" />
+            <SelectField field="LEGAL NAME" selected="True" />
+            <SelectField field="WARD" selected="True" />
+            <SelectField field="PRECINCT" selected="True" />
+            <SelectField field="WARD PRECINCT" selected="True" />
+            <SelectField field="POLICE DISTRICT" selected="True" />
+            <SelectField field="LICENSE CODE" selected="True" />
+            <SelectField field="LICENSE DESCRIPTION" selected="True" />
+            <SelectField field="LICENSE NUMBER" selected="True" />
+            <SelectField field="APPLICATION TYPE" selected="True" />
+            <SelectField field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+            <SelectField field="PAYMENT DATE" selected="True" />
+            <SelectField field="LICENSE TERM START DATE" selected="True" />
+            <SelectField field="LICENSE TERM EXPIRATION DATE" selected="True" />
+            <SelectField field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+            <SelectField field="DATE ISSUED" selected="True" />
+            <SelectField field="LICENSE STATUS" selected="True" />
+            <SelectField field="LICENSE STATUS CHANGE DATE" selected="True" />
+            <SelectField field="SSA" selected="True" />
+            <SelectField field="GRADE" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="702" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>LicenseSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="822" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="Dl_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="Dl_workflowDirectory" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="Dl_workflowFileName" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dl_CreateDate = DateTimeNow()
+Dl_workflowDirectory = [Engine.WorkflowDirectory]
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="942" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:CD|||Dim_licenses</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="GradeSK" Dest="GradeSK" />
+                <Field Source="GRADE" Dest="GRADE" />
+                <Field Source="Dl_CreateDate" Dest="DI_CreateDate" />
+                <Field Source="Dl_workflowDirectory" Dest="DI_WorkflowDirectory" />
+                <Field Source="Dl_workflowFileName" Dest="DI_WorkflowFileName" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:CD
+Query=Dim_licenses</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="558" y="257" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="LICENSE ID" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="438" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="AKA Name" selected="True" />
+            <SelectField field="Facility Type" selected="True" />
+            <SelectField field="LICENSE NUMBER" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="726" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RestaurentSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="846" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="Dl_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="Dl_workflowDirectory" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="Dl_workflowFileName" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dl_CreateDate = DateTimeNow()
+Dl_workflowDirectory = [Engine.WorkflowDirectory]
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="582" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Restaurant Name" />
+            <Field field="LICENSE NUMBER" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="629" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection Date" selected="False" type="DateTime" size="19" />
+            <SelectField field="Inspection Month" selected="True" />
+            <SelectField field="Inspection Year" selected="True" />
+            <SelectField field="Inspection_Date" selected="True" rename="InspectionDate" type="DateTime" size="19" />
+            <SelectField field="GRADE" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="726" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>DateSK</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="846" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="Dl_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="Dl_workflowDirectory" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="Dl_workflowFileName" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dl_CreateDate = DateTimeNow()
+Dl_workflowDirectory = [Engine.WorkflowDirectory]
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="966" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:CD|||Dim_Date</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="GradeSK" Dest="GradeSK" />
+                <Field Source="GRADE" Dest="GRADE" />
+                <Field Source="Dl_CreateDate" Dest="DI_CreateDate" />
+                <Field Source="Dl_workflowDirectory" Dest="DI_WorkflowDirectory" />
+                <Field Source="Dl_workflowFileName" Dest="DI_WorkflowFileName" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:CD
+Query=Dim_Date</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="582" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="InspectionDate" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="438" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="GRADE" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="750" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>InspectionTypeSk</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="870" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="Dl_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="Dl_workflowDirectory" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="Dl_workflowFileName" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dl_CreateDate = DateTimeNow()
+Dl_workflowDirectory = [Engine.WorkflowDirectory]
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="990" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:CD|||Dim_InspectionType</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="GradeSK" Dest="GradeSK" />
+                <Field Source="GRADE" Dest="GRADE" />
+                <Field Source="Dl_CreateDate" Dest="DI_CreateDate" />
+                <Field Source="Dl_workflowDirectory" Dest="DI_WorkflowDirectory" />
+                <Field Source="Dl_workflowFileName" Dest="DI_WorkflowFileName" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:CD
+Query=Dim_InspectionType</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="606" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Inspection Type" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="978" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:CDM|||Dim_Restaurent</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:CDM
+Query=Dim_Restaurent</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:D|||select Dim_Restaurent.* 
+from Dim_Restaurent</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:D
+Query=select Dim_Restaurent.* 
+fr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RestaurentSK" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=CD_table;SERVER=Bhavanish;Trusted_Connection=yes|||select Dim_Restaurent.* &#xA;from Dim_Restaurent" type="Int32" />
+            <Field name="Restaurant Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=CD_table;SERVER=Bhavanish;Trusted_Connection=yes|||select Dim_Restaurent.* &#xA;from Dim_Restaurent" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=CD_table;SERVER=Bhavanish;Trusted_Connection=yes|||select Dim_Restaurent.* &#xA;from Dim_Restaurent" type="V_String" />
+            <Field name="Facility Type" size="47" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=CD_table;SERVER=Bhavanish;Trusted_Connection=yes|||select Dim_Restaurent.* &#xA;from Dim_Restaurent" type="V_String" />
+            <Field name="LICENSE NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=CD_table;SERVER=Bhavanish;Trusted_Connection=yes|||select Dim_Restaurent.* &#xA;from Dim_Restaurent" type="Int32" />
+            <Field name="Dl_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=CD_table;SERVER=Bhavanish;Trusted_Connection=yes|||select Dim_Restaurent.* &#xA;from Dim_Restaurent" type="DateTime" />
+            <Field name="Dl_workflowDirectory" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=CD_table;SERVER=Bhavanish;Trusted_Connection=yes|||select Dim_Restaurent.* &#xA;from Dim_Restaurent" type="V_WString" />
+            <Field name="Dl_workflowFileName" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=CD_table;SERVER=Bhavanish;Trusted_Connection=yes|||select Dim_Restaurent.* &#xA;from Dim_Restaurent" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="270" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Restaurant Name" />
+            <Field field="AKA Name" />
+            <Field field="Facility Type" />
+            <Field field="LICENSE NUMBER" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Restaurant Name" />
+            <Field field="AKA Name" />
+            <Field field="Facility Type" />
+            <Field field="LICENSE NUMBER" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Restaurant Name" selected="True" rename="Right_Restaurant Name" input="Right_" />
+                <SelectField field="Right_AKA Name" selected="True" rename="Right_AKA Name" input="Right_" />
+                <SelectField field="Right_Facility Type" selected="True" rename="Right_Facility Type" input="Right_" />
+                <SelectField field="Right_LICENSE NUMBER" selected="True" rename="Right_LICENSE NUMBER" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output26" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output26" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output26" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output26" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output26" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output26" />
+      <Destination ToolID="58" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="58" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="51" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Unique" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Unique" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Unique" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Unique" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Unique" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Join" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dim</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="6030af76-6972-42cc-9817-c74027237daa" />
+      <Telemetry>
+        <PreviousWorkflowId value="620c98bd-c514-4a4d-a295-c5a960f38263" />
+        <OriginWorkflowId value="620c98bd-c514-4a4d-a295-c5a960f38263" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

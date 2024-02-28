@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Score" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Number" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Name" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Direction" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Type" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Unit" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Address" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Zip Code" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 1" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 1" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 1" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 1" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 2" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 2" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 2" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 2" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 3" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 3" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 3" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 3" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 4" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 4" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 4" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 4" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 5" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 5" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 5" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 5" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 6" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 6" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 6" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 6" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 7" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 7" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 7" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 7" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 8" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 8" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 8" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 8" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 9" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 9" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 9" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 9" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 10" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 10" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 10" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 10" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 11" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 11" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 11" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 11" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 12" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 12" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 12" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 12" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 13" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 13" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 13" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 13" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 14" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 14" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 14" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 14" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 15" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 15" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 15" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 15" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 16" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 16" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 16" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 16" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 17" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 17" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 17" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 17" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 18" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 18" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 18" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 18" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 19" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 19" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 19" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 19" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 20" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 20" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 20" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 21" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 21" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 21" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 21" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 22" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 22" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 22" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 22" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 23" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 23" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 23" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 23" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 24" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 24" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 24" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 24" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 25" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 25" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 25" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 25" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Month" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Year" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Lat Long Location" size="254" source="File: C:\Users\DELL\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\DELL\Downloads\Food_Inspections (2).tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Food_Inspections (2).tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="DBA Name" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="AKA Name" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="License #" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="Facility Type" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="Risk" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="Address" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="City" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="State" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="Zip" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="Inspection Date" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="Inspection Type" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="Results" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="Violations" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+            <Field name="Location" size="254" source="File: C:\Users\DELL\Downloads\Food_Inspections (2).tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\DELL\Downloads\Business_Licenses (1).tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Business_Licenses (1).tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="LICENSE ID" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="ACCOUNT NUMBER" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="SITE NUMBER" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="LEGAL NAME" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="DOING BUSINESS AS NAME" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="ADDRESS" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="CITY" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="STATE" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="ZIP CODE" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="WARD" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="PRECINCT" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="WARD PRECINCT" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="POLICE DISTRICT" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="LICENSE CODE" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="LICENSE DESCRIPTION" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="BUSINESS ACTIVITY ID" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="BUSINESS ACTIVITY" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="LICENSE NUMBER" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="APPLICATION TYPE" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="APPLICATION CREATED DATE" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="PAYMENT DATE" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="CONDITIONAL APPROVAL" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="LICENSE TERM START DATE" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="LICENSE TERM EXPIRATION DATE" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="DATE ISSUED" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="LICENSE STATUS" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="LICENSE STATUS CHANGE DATE" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="SSA" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="LATITUDE" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="LONGITUDE" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+            <Field name="LOCATION" size="254" source="File: C:\Users\DELL\Downloads\Business_Licenses (1).tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>stg_Chico_dal</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="2a02464b-5d1e-4750-a1e6-3d51797d2a9c" />
+      <Telemetry>
+        <PreviousWorkflowId value="7804d41b-dcf7-4c27-8716-d14a176c9286" />
+        <OriginWorkflowId value="7804d41b-dcf7-4c27-8716-d14a176c9286" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
